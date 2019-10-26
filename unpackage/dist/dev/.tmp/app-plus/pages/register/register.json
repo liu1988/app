@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "欢迎来到你的报应就是我",
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": false,
+  "usingComponents": {
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons"
+  }
+}

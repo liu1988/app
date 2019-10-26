@@ -1,0 +1,65 @@
+
+.scroll-view_H {
+	/* 文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
+	white-space: nowrap;
+	width: 100%;
+	height: 100%;
+}
+.scroll-view-item_H {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	margin: 15% 2% 2% 2%;
+}
+.scroll-view-item_H view {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.scroll-view-item_H view:nth-child(1) {
+	width: 800rpx;
+	height: 900rpx;
+}
+.scroll-view-item_H view:nth-child(1) image {
+	width: 90%;
+	height: 100%;
+	border-radius: 10rpx;
+}
+.scroll-text-info {
+	width: 100px;
+	margin-top: 20rpx;
+}
+.scroll-text-info view:nth-child(1) {
+	font-size: 36rpx;
+	width: 100%;
+	height: 30rpx;
+	margin-left: 20rpx;
+	font-weight: 600;
+	letter-spacing: 2rpx;
+	line-height: 40rpx;
+}
+.scroll-text-info view:nth-child(2) {
+	font-size: 26rpx;
+	width: 100%;
+	height: 30rpx;
+	margin-top: 20rpx;
+	margin-left: 20rpx;
+	letter-spacing: 2rpx;
+	line-height: 40rpx;
+}
+.btn_text_name {
+	display: inline-block;
+	vertical-align:middle
+}
+.btn_texts {
+	width: 50rpx;
+	height: 40rpx;
+	background: #007AFF;
+	text-align: center;
+	display: inline-block;
+	border-radius: 8rpx;
+	font-size: 12px;
+	color: #F8F8F8 ;
+	vertical-align:middle;
+	margin-left:10rpx
+}
+

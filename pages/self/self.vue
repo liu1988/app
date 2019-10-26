@@ -1,0 +1,15 @@
+<template>
+	<view class="content">
+		<view class="btn-row">
+			我的app
+		</view>
+	</view>
+</template>
+
+<script>
+
+</script>
+
+<style>
+
+</style>
